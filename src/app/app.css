@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+    /* Premium Dark Theme Palette */
+    --background: #0000000b;
+    --foreground: #ededed;
+
+    --primary: #6366f1;
+    /* Indigo 500 */
+    --primary-hover: #4f46e5;
+    --primary-glow: rgba(99, 102, 241, 0.4);
+
+    --secondary: #22dbb6;
+    --accent: #ec4899;
+    /* Pink 500 */
+
+    --surface: #121212;
+    --surface-border: #2a2a2a;
+
+    --text-primary: #ffffff;
+    --text-secondary: #a1a5aa;
+
+    --font-main: 'Outfit', sans-serif;
+
+    --radius: 12px;
+    --transition: all 0.3s ease;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow: hidden;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button-hero {
+    @apply bg-transparent rounded-full w-6 h-6 flex items-center justify-center border-none scale-200 cursor-pointer hover:shadow shadow-white transform transition duration-500 ease-in-out;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--surface-border);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+.hover:hover {
+    box-shadow: var(--primary-glow);
+}
