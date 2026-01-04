@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Marcos Nicolás Iannello — Software Developer (Full Stack)
 
-## Getting Started
+I’m a full-stack software developer with experience building and maintaining web and desktop applications, as well as REST APIs. I focus on creating software that is scalable, maintainable, and production-ready—through clean architecture, solid engineering practices, and reliable integrations.
 
-First, run the development server:
+## What I do
+- Build modern applications with a strong focus on maintainability and long-term scalability.
+- Develop REST APIs and backend services with clean layering and clear separation of concerns.
+- Improve stability and delivery by applying good practices: refactors, migrations, and production hardening.
+- Design and implement event-driven integrations for communication across multiple applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Experience
+### CartaSur Cards S.A.U. — Software Developer (Full Stack) | Apr 2023 – Present
+- Development and maintenance of web/desktop applications and REST APIs.
+- Refactors and migrations to improve maintainability and production stability.
+- Event-driven integrations using messaging to publish/consume domain events across systems.
+- Collaboration with cross-functional teams to deliver features and improvements across business modules.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Government of the City of Buenos Aires — QA / Tester (First role) | 2021 – 2022
+- Supported software delivery through functional testing and QA practices.
+- Helped ensure stable releases and improve overall product reliability.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Core skills
+- Frontend: Angular, TypeScript, NgRx, RxJS, Electron
+- Backend: .NET / .NET Core, C#, ASP.NET Core, REST APIs
+- Architecture: Clean Architecture, MVC, SOLID
+- Data: SQL Server, Entity Framework Core, MongoDB
+- Messaging: RabbitMQ, MassTransit
+- Tools: Git, Jira
+- Background: QA, BDD, Selenium
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Education
+- Systems Engineering (Universidad Abierta Interamericana — UAI)
 
-## Learn More
+## Contact
+- Email: iannellomarcos@gmail.com
+- LinkedIn: linkedin.com/in/marcosiannello
+- GitHub: github.com/MarcosIannello
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
