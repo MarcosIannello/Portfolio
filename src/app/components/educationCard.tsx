@@ -5,8 +5,8 @@ interface Props extends Education { }
 export default function EducationCard({ program, institution, location, startDate, endDate, status, link, image, gpa, gpaScale, gpaIncludesFails }: Props) {
     return (
         <div className="relative group flex flex-col items-center justify-between p-4 w-full bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl overflow-hidden hover:shadow-lg hover:shadow-primary/20 transition-all duration-300">
-            <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary">{program}</h1>
-            <h2 className="text-xl font-bold">{institution}</h2>
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary">{program}</h3>
+            <h4 className="text-xl font-bold">{institution}</h4>
             {gpa && (
                 <p className="text-sm w-full text-center">GPA: {gpa}{gpaScale ? ` / ${gpaScale}` : ''}</p>
             )}

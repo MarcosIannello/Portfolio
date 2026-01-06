@@ -5,8 +5,8 @@ interface Props extends Experience { }
 export default function ExperienceCard({ company, position, description, date, endDate, technologies }: Props) {
     return (
         <div className="flex flex-col items-center justify-between p-4 w-[700px] h-[500px] bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl">
-            <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary">{position}</h1>
-            <h2 className="text-xl font-bold">{company}</h2>
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary">{position}</h3>
+            <h4 className="text-xl font-bold">{company}</h4>
             <p className="text-sm w-full">{description}</p>
             <div className="flex gap-2 justify-between">
                 <p className="text-sm">{date}</p>

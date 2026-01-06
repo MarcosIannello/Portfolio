@@ -51,7 +51,7 @@ export default function ContactMe() {
             </div>
 
             <div className="flex flex-col gap-2 w-full h-full justify-center pl-10 pr-6">
-                <h1 className="text-5xl font-bold text-white tracking-tight mb-4">Get in touch</h1>
+                <h2 className="text-5xl font-bold text-white tracking-tight mb-4">Get in touch</h2>
                 <p className="text-gray-400 text-lg leading-relaxed mb-8">
                     I'm constantly looking for new opportunities and challenges.
                     Structure your ideas and let's build something amazing together.

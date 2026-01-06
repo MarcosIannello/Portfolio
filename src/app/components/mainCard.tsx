@@ -52,12 +52,12 @@ export default function MainCard() {
 
             {/* Profile Image */}
             <div className="relative group shrink-0">
-                <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+                <div className="absolute -inset-1 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                 <Image
                     src="/MNI.jpg"
                     alt="Marcos Iannello"
-                    width={200}
-                    height={200}
+                    width={256}
+                    height={256}
                     className="relative rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-black/20 shadow-2xl transform transition-transform duration-500 group-hover:scale-105"
                     priority
                 />

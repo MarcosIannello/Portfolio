@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+    --font-sans: var(--font-ubuntu), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 :root {
     /* Premium Dark Theme Palette */
@@ -22,7 +25,7 @@
     --text-primary: #ffffff;
     --text-secondary: #a1a5aa;
 
-    --font-main: 'Outfit', sans-serif;
+    --font-main: var(--font-ubuntu), sans-serif;
 
     --radius: 12px;
     --transition: all 0.3s ease;

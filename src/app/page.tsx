@@ -19,6 +19,7 @@ export default function Home() {
         </div>
       </section>
       <section id="experience" className="relative flex flex-col gap-52 items-center justify-center h-screen w-full">
+        <h2 className="sr-only">Experience</h2>
         <div className="flex justify-center items-center">
           <CardContainer className="flex gap-10">
             {MyExperience.map((job, index) => (
@@ -39,6 +40,7 @@ export default function Home() {
         </div>
       </section>
       <section id="education" className="relative flex flex-col items-center justify-center h-screen w-full">
+        <h2 className="sr-only">Education</h2>
         <div className="w-full max-w-7xl max-h-[80vh] overflow-y-auto p-10">
           <CardContainer className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {
